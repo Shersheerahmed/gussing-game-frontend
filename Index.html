@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/nav.Css">
+</head>
+
+<body>
+    <ul class="navigation">
+        <div class="left">
+            <li><a href="./Pagess/Scores.html">High Score</a></li>
+            <li><a href="Index.html"> Home</a></li>
+
+        </div>
+
+
+
+        <li><a href="./Pagess/login.html">Login</a></li>
+
+
+
+    </ul>
+    <h1 id="page-header">Guess under Which cup the marble Is ?</h1>
+    <div class="cup-images">
+        <img src="./Imagesss/cup.jpg" class="display-image" id="1" alt="cup1">
+        <img src="./Imagesss/cup.jpg" class="display-image" id="2" alt="cup2">
+        <img src="./Imagesss/cup.jpg" class="display-image" id="3" alt="cup3">
+        <img src="./Imagesss/cup.jpg" class="display-image" id="4" alt="cup4">
+        <img src="./Imagesss/cup.jpg" class="display-image" id="5" alt="cup5">
+    </div>
+    <div>
+        <div>your score is <span id="scoreValue">0</span></div>
+        <button id="restart" onclick="restartgame()">restartgame</button>
+        <br>
+        <br>
+        <br>
+        <button id="game-btn" onclick="postToBackend()">save sore</button>
+
+    </div>
+    <script src="../Gussing game html/js/app.js"></script>
+    <script src="./js/services.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

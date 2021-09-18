@@ -1,0 +1,23 @@
+.score-box{
+text-align: center;
+list-style-type: none;
+box-shadow: rgb(255, 0, 0);
+border-radius: 30px;
+width: 70%;
+margin: auto;
+
+}
+
+.score-box .score-item{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between ;
+
+    
+    
+
+}
+.header{
+    background-color: tomato;
+    color: blue;
+}
